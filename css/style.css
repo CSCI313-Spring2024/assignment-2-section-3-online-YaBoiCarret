@@ -1,0 +1,45 @@
+body {
+    margin-top: 70px;
+    font-family: Arial, sans-serif;
+  }
+  html {
+    scroll-padding-top: 110px; 
+  }
+  .navbar {
+    height: 100px; 
+  }
+  .navbar-collapse {
+    background-color: rgba(61, 55, 55, 0.9);
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .nav-item .nav-link {
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px;
+  }
+  section {
+    padding: 60px 0;
+  }
+  .experience-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  .experience-card img:hover{
+    transform: translateY(-5px);
+  }
+  .resume-img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    width: 600px;
+    height: auto;
+  }
+  .resume-img:hover {
+    transform: translateY(-5px);
+  }
